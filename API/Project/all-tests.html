@@ -1,0 +1,88 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="saxon://com.eviware.soapui.support.StringUtils" xmlns:filenamesupport="saxon://com.eviware.soapui.support.FilenameSupport">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+      <title>JUnit Test Report: All TestCases</title>
+      <link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+   </head>
+   <body onload="open('allclasses-frame.html','classListFrame')">
+      <h1>JUnit Test Report</h1>
+      <hr size="1">
+      <h2>All TestCases</h2>
+      <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+         <tr valign="top">
+            <th>Class</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th width="80%">Type</th>
+            <th nowrap>Time (s)</th>
+         </tr>
+         <tr valign="top" class="Failure">
+            <td><a href="REST Project 3/1_REST Project 3.https&amp;colon;&amp;sol;&amp;sol;api.github.com Test Suite.html">REST Project 3.https://api.github.com Test Suite</a></td>
+            <td><a name="Test Case"></a><a href="REST Project 3/1_REST Project 3.https&amp;colon;&amp;sol;&amp;sol;api.github.com Test Suite.html#Test Case">Test Case</a></td>
+            <td>Failure</td>
+            <td>Failing due to failed test step<br><br><code><h3><b>Request 1 Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status
+                  codes<br/>Status: FAIL<br/>Time Taken: 438<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:28 IST 2024<br/>TestStep: Request
+                  1<br/><br/>----------------- Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401
+                  is not in acceptable list of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version:
+                  HTTP/1.1<br/>Endpoint: https://api.github.com<br/>Method: GET<br/>StatusCode: 401<br/>URL: https://api.github.com/user/emails<br/><br/>----------------
+                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
+                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
+                  [0]<br/><br/>GET https://api.github.com/user/emails HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Authorization: Bearer
+                  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<br/>Content-Length: 0<br/>Host: api.github.com<br/>Connection: Keep-Alive<br/>User-Agent:
+                  Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/><br/>---------------- Response --------------------------<br/>Server: [GitHub.com]<br/>X-RateLimit-Resource:
+                  [core]<br/>X-RateLimit-Used: [5]<br/>Access-Control-Allow-Origin: [*]<br/>X-Content-Type-Options: [nosniff]<br/>X-RateLimit-Reset:
+                  [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options: [deny]<br/>Referrer-Policy: [origin-when-cross-origin,
+                  strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit,
+                  X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
+                  X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]<br/>Strict-Transport-Security:
+                  [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining: [55]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy:
+                  [default-src &apos;none&apos;]<br/>Vary: [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#:
+                  [HTTP/1.1 401 Unauthorized]<br/>Content-Length: [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id:
+                  [D6E5:38CC53:E427A9:E8BC4F:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/><h3><b>Request
+                  2 Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status codes<br/>Status:
+                  FAIL<br/>Time Taken: 254<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:29 IST 2024<br/>TestStep: Request 2<br/><br/>-----------------
+                  Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list
+                  of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version: HTTP/1.1<br/>Endpoint:
+                  https://api.github.com<br/>Method: POST<br/>StatusCode: 401<br/>URL: https://api.github.com/user/keys<br/><br/>----------------
+                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
+                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
+                  [144]<br/>Content-Type: [application/json]<br/><br/>POST https://api.github.com/user/keys HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Content-Type:
+                  application/json<br/>Authorization: Bearer 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<br/>Content-Length: 144<br/>Host: api.github.com<br/>Connection:
+                  Keep-Alive<br/>User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/>{<br/> &quot;title&quot;: &quot;TestKey&quot;,<br/>
+                  &quot;key&quot;: &quot;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGIuNZZMV9q3/RXa72sfD1veiLfT8dPpk+0/IV4MWhik azuread\\varung@IBM-PF32PTSV&quot;<br/>}<br/><br/>----------------
+                  Response --------------------------<br/>Server: [GitHub.com]<br/>X-RateLimit-Resource: [core]<br/>X-RateLimit-Used: [6]<br/>Access-Control-Allow-Origin:
+                  [*]<br/>X-Content-Type-Options: [nosniff]<br/>X-RateLimit-Reset: [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options:
+                  [deny]<br/>Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers:
+                  [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource,
+                  X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id,
+                  Deprecation, Sunset]<br/>Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining:
+                  [54]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy: [default-src &apos;none&apos;]<br/>Vary:
+                  [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#: [HTTP/1.1 401 Unauthorized]<br/>Content-Length:
+                  [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id: [D6E5:38CC53:E42871:E8BD1A:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad
+                  credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/><h3><b>Request 3
+                  Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status codes<br/>Status:
+                  FAIL<br/>Time Taken: 260<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:30 IST 2024<br/>TestStep: Request 3<br/><br/>-----------------
+                  Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list
+                  of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version: HTTP/1.1<br/>Endpoint:
+                  https://api.github.com<br/>Method: DELETE<br/>StatusCode: 401<br/>URL: https://api.github.com/user/keys/<br/><br/>----------------
+                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
+                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
+                  [0]<br/>Content-Type: [application/json]<br/><br/>DELETE https://api.github.com/user/keys/ HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Content-Type:
+                  application/json<br/>Authorization: Bearer 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<br/>Content-Length: 0<br/>Host: api.github.com<br/>Connection:
+                  Keep-Alive<br/>User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/><br/>---------------- Response --------------------------<br/>Server:
+                  [GitHub.com]<br/>X-RateLimit-Resource: [core]<br/>X-RateLimit-Used: [7]<br/>Access-Control-Allow-Origin: [*]<br/>X-Content-Type-Options:
+                  [nosniff]<br/>X-RateLimit-Reset: [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options: [deny]<br/>Referrer-Policy:
+                  [origin-when-cross-origin, strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After,
+                  X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+                  X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]<br/>Strict-Transport-Security:
+                  [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining: [53]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy:
+                  [default-src &apos;none&apos;]<br/>Vary: [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#:
+                  [HTTP/1.1 401 Unauthorized]<br/>Content-Length: [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id:
+                  [D6E5:38CC53:E42939:E8BDE0:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/></code><span class="Success"></span></td>
+            <td>0.952</td>
+         </tr>
+      </table>
+   </body>
+</html>
