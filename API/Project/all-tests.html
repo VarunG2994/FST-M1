@@ -1,88 +1,327 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="saxon://com.eviware.soapui.support.StringUtils" xmlns:filenamesupport="saxon://com.eviware.soapui.support.FilenameSupport">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-      <title>JUnit Test Report: All TestCases</title>
-      <link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
-   </head>
-   <body onload="open('allclasses-frame.html','classListFrame')">
-      <h1>JUnit Test Report</h1>
-      <hr size="1">
-      <h2>All TestCases</h2>
-      <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
-         <tr valign="top">
-            <th>Class</th>
-            <th>Name</th>
-            <th>Status</th>
-            <th width="80%">Type</th>
-            <th nowrap>Time (s)</th>
-         </tr>
-         <tr valign="top" class="Failure">
-            <td><a href="REST Project 3/1_REST Project 3.https&amp;colon;&amp;sol;&amp;sol;api.github.com Test Suite.html">REST Project 3.https://api.github.com Test Suite</a></td>
-            <td><a name="Test Case"></a><a href="REST Project 3/1_REST Project 3.https&amp;colon;&amp;sol;&amp;sol;api.github.com Test Suite.html#Test Case">Test Case</a></td>
-            <td>Failure</td>
-            <td>Failing due to failed test step<br><br><code><h3><b>Request 1 Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status
-                  codes<br/>Status: FAIL<br/>Time Taken: 438<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:28 IST 2024<br/>TestStep: Request
-                  1<br/><br/>----------------- Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401
-                  is not in acceptable list of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version:
-                  HTTP/1.1<br/>Endpoint: https://api.github.com<br/>Method: GET<br/>StatusCode: 401<br/>URL: https://api.github.com/user/emails<br/><br/>----------------
-                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
-                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
-                  [0]<br/><br/>GET https://api.github.com/user/emails HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Authorization: Bearer
-                  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<br/>Content-Length: 0<br/>Host: api.github.com<br/>Connection: Keep-Alive<br/>User-Agent:
-                  Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/><br/>---------------- Response --------------------------<br/>Server: [GitHub.com]<br/>X-RateLimit-Resource:
-                  [core]<br/>X-RateLimit-Used: [5]<br/>Access-Control-Allow-Origin: [*]<br/>X-Content-Type-Options: [nosniff]<br/>X-RateLimit-Reset:
-                  [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options: [deny]<br/>Referrer-Policy: [origin-when-cross-origin,
-                  strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit,
-                  X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
-                  X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]<br/>Strict-Transport-Security:
-                  [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining: [55]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy:
-                  [default-src &apos;none&apos;]<br/>Vary: [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#:
-                  [HTTP/1.1 401 Unauthorized]<br/>Content-Length: [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id:
-                  [D6E5:38CC53:E427A9:E8BC4F:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/><h3><b>Request
-                  2 Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status codes<br/>Status:
-                  FAIL<br/>Time Taken: 254<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:29 IST 2024<br/>TestStep: Request 2<br/><br/>-----------------
-                  Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list
-                  of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version: HTTP/1.1<br/>Endpoint:
-                  https://api.github.com<br/>Method: POST<br/>StatusCode: 401<br/>URL: https://api.github.com/user/keys<br/><br/>----------------
-                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
-                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
-                  [144]<br/>Content-Type: [application/json]<br/><br/>POST https://api.github.com/user/keys HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Content-Type:
-                  application/json<br/>Authorization: Bearer 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<br/>Content-Length: 144<br/>Host: api.github.com<br/>Connection:
-                  Keep-Alive<br/>User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/>{<br/> &quot;title&quot;: &quot;TestKey&quot;,<br/>
-                  &quot;key&quot;: &quot;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGIuNZZMV9q3/RXa72sfD1veiLfT8dPpk+0/IV4MWhik azuread\\varung@IBM-PF32PTSV&quot;<br/>}<br/><br/>----------------
-                  Response --------------------------<br/>Server: [GitHub.com]<br/>X-RateLimit-Resource: [core]<br/>X-RateLimit-Used: [6]<br/>Access-Control-Allow-Origin:
-                  [*]<br/>X-Content-Type-Options: [nosniff]<br/>X-RateLimit-Reset: [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options:
-                  [deny]<br/>Referrer-Policy: [origin-when-cross-origin, strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers:
-                  [ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource,
-                  X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id,
-                  Deprecation, Sunset]<br/>Strict-Transport-Security: [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining:
-                  [54]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy: [default-src &apos;none&apos;]<br/>Vary:
-                  [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#: [HTTP/1.1 401 Unauthorized]<br/>Content-Length:
-                  [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id: [D6E5:38CC53:E42871:E8BD1A:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad
-                  credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/><h3><b>Request 3
-                  Failed</b></h3><pre>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list of status codes<br/>Status:
-                  FAIL<br/>Time Taken: 260<br/>Size: 80<br/>Timestamp: Fri May 31 10:32:30 IST 2024<br/>TestStep: Request 3<br/><br/>-----------------
-                  Messages ------------------------------<br/>[Valid HTTP Status Codes] Response status code: 401 is not in acceptable list
-                  of status codes<br/><br/>----------------- Properties ------------------------------<br/>HTTP Version: HTTP/1.1<br/>Endpoint:
-                  https://api.github.com<br/>Method: DELETE<br/>StatusCode: 401<br/>URL: https://api.github.com/user/keys/<br/><br/>----------------
-                  Request ---------------------------<br/>Authorization: [Bearer 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]<br/>Connection: [Keep-Alive]<br/>User-Agent:
-                  [Apache-HttpClient/4.5.14 (Java/17.0.10)]<br/>Host: [api.github.com]<br/>Accept-Encoding: [gzip,deflate,br]<br/>Content-Length:
-                  [0]<br/>Content-Type: [application/json]<br/><br/>DELETE https://api.github.com/user/keys/ HTTP/1.1<br/>Accept-Encoding: gzip,deflate,br<br/>Content-Type:
-                  application/json<br/>Authorization: Bearer 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<br/>Content-Length: 0<br/>Host: api.github.com<br/>Connection:
-                  Keep-Alive<br/>User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)<br/><br/><br/>---------------- Response --------------------------<br/>Server:
-                  [GitHub.com]<br/>X-RateLimit-Resource: [core]<br/>X-RateLimit-Used: [7]<br/>Access-Control-Allow-Origin: [*]<br/>X-Content-Type-Options:
-                  [nosniff]<br/>X-RateLimit-Reset: [1717133303]<br/>Date: [Fri, 31 May 2024 05:02:30 GMT]<br/>X-Frame-Options: [deny]<br/>Referrer-Policy:
-                  [origin-when-cross-origin, strict-origin-when-cross-origin]<br/>Access-Control-Expose-Headers: [ETag, Link, Location, Retry-After,
-                  X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
-                  X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset]<br/>Strict-Transport-Security:
-                  [max-age=31536000; includeSubdomains; preload]<br/>X-RateLimit-Remaining: [53]<br/>X-GitHub-Media-Type: [github.v3; format=json]<br/>Content-Security-Policy:
-                  [default-src &apos;none&apos;]<br/>Vary: [Accept-Encoding, Accept, X-Requested-With]<br/>X-RateLimit-Limit: [60]<br/>#status#:
-                  [HTTP/1.1 401 Unauthorized]<br/>Content-Length: [80]<br/>X-XSS-Protection: [0]<br/>Content-Type: [application/json; charset=utf-8]<br/>X-GitHub-Request-Id:
-                  [D6E5:38CC53:E42939:E8BDE0:665959E6]<br/><br/>{&quot;message&quot;:&quot;Bad credentials&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest&quot;}<br/></pre><hr/></code><span class="Success"></span></td>
-            <td>0.952</td>
-         </tr>
-      </table>
-   </body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="3eb0cb5a-5199-4a6a-8122-a17ba97cad44" created="3.53.0" activeEnvironment="Default environment" encryptionMode="Not encrypted" name="REST Project 6" projectVersion="" updated="3.53.0 2024-05-13T12:06:25Z" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:interface xsi:type="con:RestService" id="3e0d5062-7802-4fab-88e8-96ef4c3b824b" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://api.github.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings id="be014262-1c41-4be4-8374-39f8aeabdb5e"/>
+    <con:definitionCache type="TEXT" rootPart=""/>
+    <con:endpoints>
+      <con:endpoint>https://api.github.com</con:endpoint>
+    </con:endpoints>
+    <con:resource name="Emails" path="/user/emails" id="4d34156a-368a-48c6-b886-d4e50a8e58e9">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Emails" id="c95a4f35-52b3-41bc-adaa-3ee9075d9d3c" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>401</con:status>
+          <con:params/>
+          <con:element xmlns:ema="https://api.github.com/user/emails">ema:Fault</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element>Response</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="1b977a35-020f-4aa8-96b8-38541233763c" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>https://api.github.com</con:endpoint>
+          <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="Keys" path="/user/keys" id="61eb913a-5db5-40fe-9e9d-852e7ddf8029">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Keys" id="9d4ca7e6-0911-4644-98ca-763eadce33c2" method="POST">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>401 422 400</con:status>
+          <con:params/>
+          <con:element xmlns:keys="https://api.github.com/user/keys">keys:Fault</con:element>
+        </con:representation>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/json</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>201</con:status>
+          <con:params/>
+          <con:element xmlns:keys="https://api.github.com/user/keys">keys:Response</con:element>
+        </con:representation>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/x-www-form-urlencoded</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:request name="Request 1" id="353fb134-1ea4-4b0f-9f74-3296223249f8" mediaType="application/json">
+          <con:settings/>
+          <con:endpoint>https://api.github.com</con:endpoint>
+          <con:credentials/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="KeyskeyId" path="user/keys/{keyId}" id="0e577405-42c4-4aec-8b99-e5c5fba25128">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>keyId</con:name>
+          <con:style>TEMPLATE</con:style>
+        </con:parameter>
+        <con:parameter>
+          <con:name>key_Id</con:name>
+          <con:style>TEMPLATE</con:style>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="KeyskeyId" id="4d9f915d-3aba-47ac-bdd1-d67d4b376431" method="DELETE">
+        <con:settings/>
+        <con:parameters>
+          <con:parameter required="true">
+            <con:name>keyId</con:name>
+            <con:value>keyId</con:value>
+            <con:style>TEMPLATE</con:style>
+            <con:default>keyId</con:default>
+            <con:path xsi:nil="true"/>
+            <con:description xsi:nil="true"/>
+          </con:parameter>
+        </con:parameters>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/json</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json; charset=utf-8</con:mediaType>
+          <con:status>404 401</con:status>
+          <con:params/>
+          <con:element xmlns:key="https://api.github.com/user/keyskeyId">key:Fault</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="a34c9721-a180-4b3f-944a-a1d50b6f5a1a" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>https://api.github.com</con:endpoint>
+          <con:request/>
+          <con:originalUri>https://api.github.com/</con:originalUri>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:parameters>
+            <con:entry key="keyId" value="keyId"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>keyId</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+  </con:interface>
+  <con:testSuite id="00592846-5ec7-4de6-9130-d257afe11aff" name="https://api.github.com Test Suite">
+    <con:settings id="8fa5b22a-bee9-44a3-8a4c-97bf4afb2c6b"/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="5d17c103-e4e5-42ba-89f5-9834f1ddc5b4" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case" searchProperties="true" timeout="0">
+      <con:settings/>
+      <con:testStep type="restrequest" name="Request 1" id="4092ed75-b23a-4fd8-88d0-b662ad189e62">
+        <con:settings/>
+        <con:config service="https://api.github.com" resourcePath="/user/emails" methodName="Emails" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="Request 1" id="1b977a35-020f-4aa8-96b8-38541233763c" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>https://api.github.com</con:endpoint>
+            <con:request/>
+            <con:originalUri>https://api.github.com/user/emails</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="a5353fe1-93f6-4d53-99b5-7ef247df19d3" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>VarunAuth</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="Request 2" id="39d16041-a631-46af-87c0-f80b448ff159">
+        <con:settings/>
+        <con:config service="https://api.github.com" resourcePath="/user/keys" methodName="Keys" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="Request 2" id="353fb134-1ea4-4b0f-9f74-3296223249f8" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>https://api.github.com</con:endpoint>
+            <con:request>{
+	"title":"TestKey",
+	"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICELgnMBHvgk9w9qXhzfDJPSLOGpfi8jUVU14+yeOVwo hp@DESKTOP-NL0VBKR"
+}</con:request>
+            <con:originalUri>https://api.github.com/user/keys</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="2eab5390-493e-43d9-954b-c8c8ad151080" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>201</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>VarunAuth</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters/>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="REST Request" id="e1ec720f-0e97-4ecf-a41a-158ce2c9a84d">
+        <con:settings/>
+        <con:config service="https://api.github.com" resourcePath="/user/keys/{keyId}" methodName="KeyskeyId" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="REST Request" id="a34c9721-a180-4b3f-944a-a1d50b6f5a1a" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>https://api.github.com</con:endpoint>
+            <con:request/>
+            <con:originalUri>https://api.github.com/</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="a8969172-6614-4116-8e95-b925291f9d2d" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="Response SLA Assertion" id="198abfd7-2031-4d19-89d3-8b6f3d518f7a" name="Response SLA">
+              <con:configuration>
+                <SLA>200</SLA>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>VarunAuth</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="keyId" value="${Request 2#Response#$['id']}"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>keyId</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:properties/>
+      <con:reportParameters/>
+    </con:testCase>
+    <con:properties/>
+    <con:reportParameters/>
+  </con:testSuite>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
+  <con:oAuth2ProfileContainer>
+    <con:oAuth2Profile>
+      <con:name>RestAssured Project6</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:accessToken>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ56Q+UiCwVN1Xub4YnXuA0OhO14QY6GaBKTMJfRRxLU azuread\varung@IBM-PF32PTSV</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
+      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
+      <con:manualAccessTokenExpirationTime/>
+      <con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit>
+      <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth2Profile>
+    <con:oAuth2Profile>
+      <con:name>VarunAuth</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:accessToken>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</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
+      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
+      <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth2Profile>
+  </con:oAuth2ProfileContainer>
+  <con:oAuth1ProfileContainer/>
+  <con:reporting>
+    <con:xmlTemplates/>
+    <con:parameters/>
+  </con:reporting>
+  <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
+    <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
+// This code is often used for adding custom authentication to ReadyAPI functional tests
+
+// If hardcoding the token, uncomment and change line 5
+// token = '4567'
+
+// If your token is parameterized in Project level custom property, uncomment line 8
+// token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+
+// To modify all outgoing calls, remove comments from lines 11 to 16
+// headers = request.requestHeaders
+// if (headers.containsKey('auth_token2') == false) {
+//   headers.put('auth_token2', token)
+//   request.requestHeaders = headers
+// }</con:script>
+  </con:eventHandlers>
+  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
+    <con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script>
+  </con:eventHandlers>
+  <con:authRepository>
+    <con:oAuth20AuthEntry>
+      <con:name>RestAssured Project6</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:accessToken>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ56Q+UiCwVN1Xub4YnXuA0OhO14QY6GaBKTMJfRRxLU azuread\varung@IBM-PF32PTSV</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
+      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
+      <con:manualAccessTokenExpirationTime/>
+      <con:manualAccessTokenExpirationTimeUnit>SECONDS</con:manualAccessTokenExpirationTimeUnit>
+      <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth20AuthEntry>
+    <con:oAuth20AuthEntry>
+      <con:name>VarunAuth</con:name>
+      <con:type>OAuth 2.0</con:type>
+      <con:accessToken>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</con:accessToken>
+      <con:accessTokenPosition>HEADER</con:accessTokenPosition>
+      <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
+      <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
+      <con:oAuth2Flow>AUTHORIZATION_CODE_GRANT</con:oAuth2Flow>
+      <con:refreshAccessTokenMethod>AUTOMATIC</con:refreshAccessTokenMethod>
+      <con:jwtConfiguration/>
+      <con:responseType>id_token</con:responseType>
+    </con:oAuth20AuthEntry>
+  </con:authRepository>
+  <con:tags/>
+</con:soapui-project>
