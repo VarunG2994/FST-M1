@@ -18,11 +18,12 @@ public class Activity1 {
     @Test(priority=1)
     public void addNewPet() {
         // Create JSON request
-        Map<String, Object> reqBody = new HashMap<>();
-        reqBody.put("id", 2039);
-        reqBody.put("name", "Shifu");
-        reqBody.put("status", "alive");
-
+     // Create JSON request
+        String reqBody = "{"
+                + "\"id\": 77232,"
+                + "\"name\": \"Riley\","
+                + " \"status\": \"alive\""
+                + "}";
         Response response =
                 given().contentType(ContentType.JSON)
                         .body(reqBody)
